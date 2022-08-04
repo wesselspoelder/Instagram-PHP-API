@@ -6,9 +6,9 @@ use MetzWeb\Instagram\Instagram;
 
 // initialize class
 $instagram = new Instagram(array(
-    'apiKey' => 'YOUR_APP_KEY',
-    'apiSecret' => 'YOUR_APP_SECRET',
-    'apiCallback' => 'YOUR_APP_CALLBACK' // must point to success.php
+    'apiKey' => '3278800845544968',
+    'apiSecret' => '53eae87cd89b0540a4d3edc58ae6122a',
+    'apiCallback' => 'success.php' // must point to success.php
 ));
 
 // create login URL
